@@ -8,6 +8,6 @@
 document.getElementById("logoutbtn").addEventListener("click", function (e) {
   e.preventDefault();
   sessionStorage.clear(); // Hapus status login
-  window.location.href = "login.html"; // Arahkan ke login
+  window.location.href = "index.html"; // Arahkan ke login
 });
 
