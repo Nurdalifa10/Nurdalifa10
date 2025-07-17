@@ -60,3 +60,78 @@ body img{
 .resetpassword:hover{
     background-color: rgba(2, 19, 104, 0.845);
 }
+@media screen and (max-width: 1024px) {
+    .loginpage {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .loginpage {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        margin: 60px auto;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: row; /* ✅ pastikan tetap horizontal */
+        align-items: center;
+        font-size: 24px;
+        gap: 10px;
+    }
+
+
+    .form-control {
+        width: 100%;
+        font-size: 16px;
+        height: auto;
+    }
+
+    .pagelain {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .resetpassword,
+    .loginbutton {
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+        padding: 10px;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .loginpage {
+        padding: 10px;
+        margin-top: 40px;
+    }
+
+    .form-control {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .input-group {
+        font-size: 18px;
+    }
+
+    .resetpassword,
+    .loginbutton {
+        font-size: 13px;
+        flex-direction: row;
+    }
+
+    body img {
+        width: 80px;
+        height: 80px;
+    }
+}
