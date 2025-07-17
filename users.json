@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "nama_lengkap": "Admin Sistem",
+      "email": "admin@unkhair.ac.id"
+    },
+    {
+      "id": 2,
+      "username": "mahasiswa01",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "nama_lengkap": "Ahmad Fauzi",
+      "email": "ahmad.fauzi@mhs.unkhair.ac.id"
+    },
+    {
+      "id": 3,
+      "username": "dosen01",
+      "password": "dosen123",
+      "role": "dosen",
+      "nama_lengkap": "Dr. Fitriani Nasir",
+      "email": "fitriani@unkhair.ac.id"
+    }
+  ]
+}
